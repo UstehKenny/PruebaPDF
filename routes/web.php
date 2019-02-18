@@ -17,3 +17,4 @@ Route::get('/', function () {
 });
 
 Route::get('base', 'BaseDatosController@pdf');
+Route::get('prueba','BaseDatosController@pdf');
