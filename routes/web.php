@@ -20,7 +20,9 @@ Route::get('principal','ConstanciasController@pdf');
 Route::get('constancia', 'ConstanciasController@pdf');
 Route::get('prueba','ConstanciasController@pdf');
 
-//Sandy
+//Constancias
+Route::get('consinstructor','ConsInstructorController@pdf');
+//Zuri
 Route::get('area','AreaController@pdf');
 Route::get('asdict','AsDICTController@pdf');
 Route::get('asdie','AsDIEController@pdf');
