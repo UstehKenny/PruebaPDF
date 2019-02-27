@@ -50,26 +50,22 @@ h4 {
         <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
         <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6>       
     </div>
-
+<br><br>
 <table>
 
 <tr>
 
-  <td width=260 align=center>___________________________</td>
+  <td width=400 align=center>___________________________</td>
 
-  <td width=260 align=center>___________________________</td>
-
-  <td width=260 align=center>___________________________</td>
+  <td width=400 align=center>___________________________</td>
 
 </tr>
 <br>
 <tr style="line-height: 100%">
 
-  <td width=260 align=center>Nombre</td>
+  <td width=400 align=center>Nombre</td>
 
-  <td width=260 align=center>Nombre</td>
-
-  <td width=260 align=center>Nombre</td>
+  <td width=400 align=center>Nombre</td>
 
 </tr>
 

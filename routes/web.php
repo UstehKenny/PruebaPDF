@@ -22,6 +22,8 @@ Route::get('prueba','ConstanciasController@pdf');
 
 //Constancias
 Route::get('consinstructor','ConsInstructorController@pdf');
+Route::get('consdosinstructor','ConsDosInstructorController@pdf');
+Route::get('contresinstructor','ConsTresInstructorController@pdf');
 //Zuri
 Route::get('area','AreaController@pdf');
 Route::get('asdict','AsDICTController@pdf');
