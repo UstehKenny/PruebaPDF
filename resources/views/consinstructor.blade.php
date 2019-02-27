@@ -41,13 +41,13 @@ h4 {
         <h4>"Ing. Gilberto Borja Navarrete"</h4>
         <br>
         <h3 style="font-size: 20px;font-style: normal;">Otorga la presente constancia a: </h2>
-        <br><h2 class='nombre'>LA PINCHE KENY</h2>
+        <br><h2 class='nombre'>Nombre completo</h2>
         <h3 style="font-size: 18px;">por haber acreditado el curso</h3>
-        <h2 class='nombre'>PYTHON</h2>
+        <h2 class='nombre'>Nombre del curso</h2>
         
         <h5>Del [fecha]</h5>
         <h5>Duracion: []</h5>
-        <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU, PRRO"</h6>
+        <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
         <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6>       
     </div>
 
