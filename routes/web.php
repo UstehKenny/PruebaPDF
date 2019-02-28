@@ -30,6 +30,13 @@ Route::get('constresinstructor','ConsTresInstructoresController@pdf');
 Route::get('unica','UNICAController@pdf');
 Route::get('instructorsad','InstructorSADController@pdf');
 Route::get('dosinstructoressad','DosInstructoresSADController@pdf');
+Route::get('saddirector','SADdirectorController@pdf');
+Route::get('coordgeneral','CoordGeneralController@pdf');
+Route::get('coordgeneral2','CoordGeneral2Controller@pdf');
+Route::get('coordgeneralsad','CoordGeneralSADController@pdf');
+Route::get('directorsad','DirectorSADController@pdf');
+Route::get('directortexto','DirectorTextoController@pdf');
+
 //Zuri
 Route::get('area','AreaController@pdf');
 Route::get('asdict','AsDICTController@pdf');
