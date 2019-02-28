@@ -35,7 +35,7 @@ h4 {
     <div><img src="http://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudo_fi_color.png" width="150" height="184" align="right"><img src="http://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudos/escudounam_color.jpg" width="160" height="190" align="left"></div>           
     <div align=center; style="line-height=200%;">
         <h2 style="font-size: 26px;">Universidad Nacional Autónoma de México</h2>
-        <h3>Facultad de Ingeniería, prros</h3>
+        <h3>Facultad de Ingeniería</h3>
         <h3>Secretaría de Apoyo a la Docencia</h3>
         <h2>Centro de Docencia</h2>
         <h4>"Ing. Gilberto Borja Navarrete"</h4>

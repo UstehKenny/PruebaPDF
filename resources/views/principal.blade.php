@@ -14,7 +14,7 @@
 <a href="{{ url('/contresinstructor') }}" class="btn btn-default">Constancia tres Instructores</a><br>
 <a href="{{ url('/consuninstructor') }}" class="btn btn-default">Un Instructor</a><br>
 <a href="{{ url('/consdosinstructores') }}" class="btn btn-default">Dos Instructores</a><br>
-<a href="{{ url('/constresinstructores') }}" class="btn btn-default">Tres Instructores</a><br>
+<a href="{{ url('/constresinstructor') }}" class="btn btn-default">Tres Instructores</a><br>
 <a href="{{ url('/unica') }}" class="btn btn-default">UNICA</a><br>
 <a href="{{ url('/instructorsad') }}" class="btn btn-default">Un Instructor SAD</a><br>
 <a href="{{ url('/dosinstructoressad') }}" class="btn btn-default">Dos Instructores SAD</a><br>

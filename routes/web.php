@@ -25,6 +25,10 @@ Route::get('consinstructor','ConsInstructorController@pdf');
 Route::get('consdosinstructor','ConsDosInstructorController@pdf');
 Route::get('contresinstructor','ConsTresInstructorController@pdf');
 Route::get('consuninstructor','ConsUnInstructorController@pdf');
+Route::get('consdosinstructores','ConsDosInstructoresController@pdf');
+Route::get('constresinstructor','ConsTresInstructoresController@pdf');
+Route::get('unica','UNICAController@pdf');
+
 //Zuri
 Route::get('area','AreaController@pdf');
 Route::get('asdict','AsDICTController@pdf');
