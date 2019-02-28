@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Constancia dos instructor</title>
+    <title>Constancia un instructor</title>
 </head>
 <style>
 body {
@@ -29,7 +29,6 @@ h4 {
 	margin: 5px 0;
 }
 </style>
-
 <body>   
     <!--body style="background-image:url(http://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudo_fi_color.png);background-attachment: fixed; background-size: cover; background-repeat: no-repeat;background-position: center;" -->    
     <div><img src="http://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudo_fi_color.png" width="150" height="184" align="right"><img src="http://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudos/escudounam_color.jpg" width="160" height="190" align="left"></div>           
@@ -50,26 +49,22 @@ h4 {
         <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
         <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6>       
     </div>
-
+<br><br>
 <table>
 
 <tr>
 
-  <td width=260 align=center>___________________________</td>
+  <td width=400 align=center>___________________________</td>
 
-  <td width=260 align=center>___________________________</td>
-
-  <td width=260 align=center>___________________________</td>
+  <td width=400 align=center>___________________________</td>
 
 </tr>
 <br>
 <tr style="line-height: 100%">
 
-  <td width=260 align=center>Nombre</td>
+  <td width=400 align=center>Nombre</td>
 
-  <td width=260 align=center>Nombre</td>
-
-  <td width=260 align=center>Nombre</td>
+  <td width=400 align=center>Nombre</td>
 
 </tr>
 
