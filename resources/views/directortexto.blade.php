@@ -9,7 +9,7 @@
 <style>
 body {
   font-family:Arial, Helvetica, Sans-serif,cursive; 
-  line-height: 70%
+  line-height: 70%;
 }
 h4 {
     margin-left:10; 
@@ -19,14 +19,11 @@ h4 {
 .nombre{
     font-family:'Tangerine', serif;
     font-style:italic;
-    font-size: 35px;
-    line-height: 100%
+    font-size: 32px;
+    line-height: 90%
 }
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+.centro {
+    line-height: 20%
 }
 </style>
 <body>   
@@ -38,20 +35,25 @@ h4 {
         <h3>Secretaría de Apoyo a la Docencia</h3>
         <h2>Centro de Docencia</h2>
         <h4>"Ing. Gilberto Borja Navarrete"</h4>
-        <br>
-        <h3 style="font-size: 20px;font-style: normal;">Otorga la presente constancia a: </h2>
+        <br><br>
+        <!--Centro -->
+        <div class="centro">
+        <h3 style="font-size: 18px;font-style: normal; line-height: 20%;">Otorga la presente constancia a: </h2>
         <br><h2 class='nombre'>Nombre completo</h2>
-        <h3 style="font-size: 18px;">por impartir el curso</h3>
+        <h3 style="font-size: 17px;line-height: 20%;">por impartir el curso</h3>
         <h2 class='nombre'>Nombre del curso</h2>
         
         <h5>Del [fecha]</h5>
         <h5>Duracion: []</h5>
-        <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
-        <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6>       
+        <h6 style="line-height: 20%;">"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
+        <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6> 
+        </div>
+     
     </div>
-<br><br>
-<table>
 
+<table>
+<br><br>
+<tr><td align=center><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Firma_de_Ariana_Grande.png" width="100" height="100" align="center"></td></tr>
 <tr>
 
   <td width=765 align=center>___________________________</td>
@@ -61,6 +63,11 @@ h4 {
 <tr style="line-height: 100%">
 
   <td width=400 align=center>Nombre</td>
+
+</tr>
+<tr style="line-height: 100%">
+
+  <td align=center style="font-size: 10px;line-height: 20%;">puesto</td>
 
 </tr>
 
