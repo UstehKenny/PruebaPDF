@@ -41,7 +41,7 @@ h4 {
         <br>
         <h3 style="font-size: 20px;font-style: normal;">Otorga la presente constancia a: </h2>
         <br><h2 class='nombre'>Nombre completo</h2>
-        <h3 style="font-size: 18px;">por haber acreditado el curso</h3>
+        <h3 style="font-size: 18px;">por impartir el curso</h3>
         <h2 class='nombre'>Nombre del curso</h2>
         
         <h5>Del [fecha]</h5>
@@ -54,7 +54,7 @@ h4 {
 
 <tr>
 
-  <td width=400 align=center>___________________________</td>
+  <td width=765 align=center>___________________________</td>
 
 </tr>
 <br>

@@ -8,7 +8,7 @@ class DirectorTextoController extends Controller
 {
     public function pdf(){
         //Se establece la orientacion del papel con el comando de setPaper->landscape(horizontal)
-    	$pdf = PDF::loadView('directotexto')->setPaper('a4','landscape');
+    	$pdf = PDF::loadView('directortexto')->setPaper('a4','landscape');
     	return $pdf->download('Director Texto.pdf');
     }
 }
