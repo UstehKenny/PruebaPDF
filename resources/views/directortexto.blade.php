@@ -39,7 +39,8 @@ h4 {
         <!--Centro -->
         <div class="centro">
         <h3 style="font-size: 18px;font-style: normal; line-height: 20%;">Otorga la presente constancia a: </h2>
-        <br><h2 class='nombre'>Nombre completo</h2>
+       <br><h2 class='nombre'>{{ $nombre }}</h2>
+<!--<br><h2 class='nombre'>Nombre completo</h2>-->
         <h3 style="font-size: 17px;line-height: 20%;">por impartir el curso</h3>
         <h2 class='nombre'>Nombre del curso</h2>
         
