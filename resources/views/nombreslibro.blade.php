@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Asistencia</title>
+	<title>Nombres Libro</title>
 </head>
 <style>
     div.container {
@@ -49,44 +49,40 @@ hr{
 <body>
 <div style="height: 90%">
 	<div height="10%">
-		<table style="width: 100%" align="center" id="encabezado" height="5%">
+		<table style="width: 100%" align="top" id="encabezado" height="5%">
 			<tr>
 				<td  width="10%" >
 					<img src="img/m.png"  align="center" height="100">
 					
 				</td>
 				<td align="center">
-					UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO<br/>
-			        FACULTAD DE INGENIERÍA<br/>
-			        CENTRO DE DOCENCIA 
-			        "Ing. Gilberto Borja Navarrete"<br/>
+					<b>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</b><br/>
+			        <b>FACULTAD DE INGENIERÍA</b><br/>
+			        CENTRO DE DOCENCIA<br>
+			        <i>"Ing. Gilberto Borja Navarrete"</i><br/>
 			        <br/>
-			        Excel avanzado para docentes
-				</td>
-			</tr>
-		</table>
+			     </td> 
+			    </tr>
+		</table>   
+			        
+			 	<p align="center">Excel avanzado para docentes</p>
+		<p class="small" align="right">Fecha </p>  
 		<table>
 			<tr>
-				<td class="small" width="500">Nombre del participante
+				<td class="small" width="500">Nombre del participante para el libro
 				</td>
-				<td class="small">Fecha</td>
+				<td class="small">Horario del curso</td>
 			</tr>
 		</table>
 	</div>
-	<hr>
+	<hr height>
 	
-<table align="center" style="width: 100%">
-	<tr align="center" height="70">
-		<td width="60%"></td>
-		<td><i>Firma de Asistencia</i></td>
-	</tr>
-</table>
 		<?php 
-        foreach($alumnos as $alumno){  
+        foreach($profesores as $profesor){  
 	        print("
 	        <table>
 	        	<tr >
-	        	<td>{$alumno->Nombre}</td>
+	        	<td>{$profesor->Nombre}</td>
 	        	<td></td>
 	    		</tr>
 	        </table>
@@ -98,6 +94,6 @@ hr{
 		
 
 </div>
-<a href="{{ url('/asistencia/pdf') }}" class="btn btn-info" style="text-align:right">PDF</a></td>
+<a href="{{ url('/nombres/pdf') }}" class="btn btn-info" style="text-align:right">PDF</a></td>
 </body>
 </html>

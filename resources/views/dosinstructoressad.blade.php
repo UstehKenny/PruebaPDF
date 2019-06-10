@@ -22,11 +22,8 @@ h4 {
     font-size: 35px;
     line-height: 100%
 }
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+.centro {
+    line-height: 20%
 }
 </style>
 
@@ -39,19 +36,26 @@ h4 {
         <h3>Secretaría de Apoyo a la Docencia</h3>
         <h2>Centro de Docencia</h2>
         <h4>"Ing. Gilberto Borja Navarrete"</h4>
-        <br>
-        <h3 style="font-size: 20px;font-style: normal;">Otorga la presente constancia a: </h2>
-        <br><h2 class='nombre'>Nombre completo</h2>
-        <h3 style="font-size: 18px;">por haber acreditado el curso</h3>
-        <h2 class='nombre'>Nombre del curso</h2>
+        <br><br>
+        <div class="centro">
+          <h3 style="font-size: 18px;font-style: normal; line-height: 20%;">Otorga la presente constancia a: </h2>
+        <br><h2 class='nombre'>{{ $profesor->nombres}} {{$profesor->apellido_paterno}} {{$profesor->apellido_materno}}</h2>
+        <h3 style="font-size: 17px;line-height: 20%;">por haber acreditado el curso</h3>
+        <h2 class='nombre'>{{ $curso->nombre_curso  }}</h2>
         
-        <h5>Del [fecha]</h5>
-        <h5>Duracion: []</h5>
-        <h6>"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>
-        <h6 style="font-size: 10px;">Ciudad Universitaria a [fecha]</h6>       
+        <h5>Del {{$curso->fecha_inicio}} al {{$curso->fecha_fin}}</h5>
+        <h5>Duracion: {{ $cursoCatalogo->duracion_curso }}</h5>
+        <h6 style="line-height: 20%;">"POR MI RAZA HABLARÁ EL ESPÍRITU"</h6>    
+        <h6 style="font-size: 10px;">Ciudad Universitaria a {{$fecha}}</h6> 
+        </div>
+               
     </div>
 
 <table>
+<tr><td align=center><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Firma_de_Ariana_Grande.png" width="100" height="100" align="center"></td>
+<td align=center><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Firma_de_Ariana_Grande.png" width="100" height="100" align="center"></td>
+<td align=center><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Firma_de_Ariana_Grande.png" width="100" height="100" align="center"></td>
+</tr>
 
 <tr>
 
@@ -72,7 +76,13 @@ h4 {
   <td width=260 align=center>Nombre</td>
 
 </tr>
+<tr style="line-height: 100%">
 
+  <td align=center style="font-size: 10px;line-height: 20%;">puesto</td>
+  <td align=center style="font-size: 10px;line-height: 20%;">puesto</td>
+  <td align=center style="font-size: 10px;line-height: 20%;">puesto</td>
+
+</tr>
 </table>
 </body>
 </html>

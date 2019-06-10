@@ -53,6 +53,8 @@ hr{
 <body>
 <div style="height: 90%">
 	<div height="10%">
+		<hr/ >
+		<hr>
 		<div align="center" class="encabezado">
 			UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
 		</div>
@@ -70,16 +72,18 @@ hr{
 			        <i>"Ing. Gilberto Borja Navarrete"</i><br/>
 				</td>
 				<td align="center" width="15%" id="normal">
-					<img src="img/magestic.jpg" alt="" align="right" height="120">
+					<img src="img/m.png" alt="" align="right" height="120">
 				</td> 
 			</tr>
 		</table>
-		<p align="center"><b>MARTINEZ ALAVEZ JACQUELYN</b>
+		<hr>
+		<p align="center"><b>Encuestas del curso</b></p>
+		<p align="center"><b>Excel avanzado para docentes</b>
 		</p>
-
+		<p class="small" align="center">Semestre</p>
+		<hr/ >
 	</div>
 	<div id="cuerpo">
-		<!--
 		<table align="right" width="100%">
 			<tr>
 				<td class="tabla" width="60%"></td>
@@ -100,36 +104,32 @@ hr{
 			
 			
 		</table>
-	-->
 
 
 		
 
 		<table id="contenido">
 			<tr>
-				<td width="50%"><B><center>Cursos Acreditados</center></B></td>
-				<td width="50%"><B><center>Duración</center></B></td>
+				<td>Objetivo:</td>
+				<td>Que los asistentes utilicen las herramientas avanzadas del Excel para un mejor aprovechamiento de sus labores acad'emicas.</td>
 			</tr>
 			<tr>
-				<td width="50%"><center>Formación en la práctica docente<br>19 al 23 de junio de 2006</center></td>
-			 	<td width="50%"><center>Año XXXX-año XXXX</center><br>
+				<td>Contenido:</td>
+			 	<td>-Bases de datos(filtros, filtros avanzados, ordenamisntos, subtotales)<br>
+					-Tablas dinámicas<br>
+					-Funciones y Fórmulas avanzadas (Sí, busca rv, funciones lógicas, matriciales)<br>
+					-Consolidar<br>
+					-Escenarios<br>
+					-Introducción a Macros<br>
 				</td>
 			</tr>
 			<tr>
-				<td width="50%"><center>Evaluación del aprendizaje escolar<br>25 al 29 de enero de 2010</center></td>
-			 	<td width="50%"><br>
-			 		<center>Año XXXX-año XXXX XX</center>
-			 		Introducir al participante en el conocimiento del proceso de la evaluación del aprendizaje escolar e instrumentar una estrategia de evaluación para la primera unidad del programa de la asignatura
-			 	<br>
-				</td>
+				<td>Antecedentes:</td>
+				<td>Conocimientos de Excel básico</td>
 			</tr>
 			<tr>
-				<td width="50%"><center>Asertividad en el aula<br>28 al 2 de julio de 2010</center></td>
-			 	<td width="50%"><br>
-			 		<center>Año XXXX-año XXXX       XX</center>
-			 		El docente identificará y analizará los conceptos básicos de la asertividad y la comunicación para mejorar las condiciones socio-afectivas en el aula.
-			 	<br>
-				</td>
+				<td>Duración</td>
+				<td>20 h</td>
 			</tr>
 		</table>
 	</div>
