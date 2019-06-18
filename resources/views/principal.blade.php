@@ -1,3 +1,5 @@
+<a href="{{ url('downloadZip') }}" class="btn btn-default">DESCARGAR ZIP</a><br><br>
+
 <a href="{{ url('/constancia') }}" class="btn btn-default">Hoja de inscripcion -></a> <br>
 <a href="{{ url('/constancia') }}" class="btn btn-default">Inscritos en curso -></a><br>
 <a href="{{ url('/constancia') }}" class="btn btn-default">Sin lista de espera -> </a><br>
@@ -48,3 +50,5 @@
 <a href="{{ url('/asdict') }}" class="btn btn-default">Asistencia DICT</a><br>
 <a href="{{ url('/asdie') }}" class="btn btn-default">Asistencia DIE</a><br>
 <a href="{{ url('/cdd') }}" class="btn btn-default">Cursos CDD</a><br>
+
+

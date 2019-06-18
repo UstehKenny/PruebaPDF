@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('principal','ConstanciasController@pdf');
 Route::get('constancia', 'ConstanciasController@pdf');
 Route::get('prueba','ConstanciasController@pdf');
+Route::get('downloadZip','ZIPController@downloadZip');
 
 //Constancias
 Route::get('consinstructor','ConsInstructorController@pdf');
